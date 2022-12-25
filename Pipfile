@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+torchvision = "*"
+numpy = "*"
+tqdm = "*"
+opencv-python = "*"
+scikit-image = "*"
+colorama = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
